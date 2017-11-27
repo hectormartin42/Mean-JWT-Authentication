@@ -40,7 +40,7 @@ const routes = [
     BrowserModule,
     FormsModule,
     HttpModule,
-    FlashMessagesModule.forRoot(),
+    FlashMessagesModule,
     RouterModule.forRoot(routes),
     HttpClientModule,
     JwtModule.forRoot({
