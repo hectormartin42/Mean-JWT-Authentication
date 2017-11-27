@@ -12,7 +12,7 @@ export class NavbarComponent implements OnInit {
 
   isUserLoggedin: boolean;
 
-  constructor(private accountService: AccountService,
+  constructor(public accountService: AccountService,
     private router: Router,
     private flashMessagesService: FlashMessagesService) {
 

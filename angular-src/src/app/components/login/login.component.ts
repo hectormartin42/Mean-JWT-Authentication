@@ -11,7 +11,7 @@ import { ILogin } from '../../interfaces/login';
 })
 export class LoginComponent implements OnInit {
 
-  private userLogin: ILogin;
+  userLogin: ILogin;
 
   constructor(private accountService: AccountService,
     private router: Router,

@@ -8,6 +8,7 @@
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
     "target": "es5",
+    "paths": { "@angular/*": ["../node_modules/@angular/*"] },  // Fixing the problem with ng build --prod
     "typeRoots": [
       "node_modules/@types"
     ],
